@@ -187,7 +187,7 @@ public class QueryParser {
 		evals.append(Evaluator.IsOnlyChild())
 	} else if (tq.matchChomp(":only-of-type")) {
 		evals.append(Evaluator.IsOnlyOfType())
-	} else if (tq.matchChomp(":empty")) {
+	} else if (tq.matchChomp(":empty")) { 
 		evals.append(Evaluator.IsEmpty())
 	} else if (tq.matchChomp(":root")) {
 		evals.append(Evaluator.IsRoot())
